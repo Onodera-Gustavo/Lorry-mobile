@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="area.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top">
+        <img id="logo" src="images/lorry.png">
+        <a id="whats" href="https://wa.me/15551234567"><img  src="icons/whats.png"></a>
+    </div>
+    
+    <div id="container">
+        <div id="border"></div>
+        <div id="logo2">
+            <img src="images/logo2.png">
+        </div>
+    </div>
+    <div id="box">
+    <div id="area">
+        <h2 style="font-size: 1.25em; margin-top: 1em;">BEM-VINDO À SUA ÁREA</h2>
+        <h3>Por favor, informe seu CPF e código do cliente</h3>
+        <div>
+            <form action="/action_page.php">
+                <input type="text" id="cpf" name="cpf" value="CPF"><br>
+                <input type="text" id="codigo" name="codigo" value="CÓDIGO DO CLIENTE"><br>
+                <input type="image" img src="icons/entrar.png" style="margin-top: 1em;">
+            </form>
+        </div>   
+    </div>
+    </div>
+    <div id="info">
+        <h2>AQUI VOCÊ TEM ACESSO À:</h2>
+        <ul>
+            <li>Resultado de exames;</li>
+            <li>Agendamentos;</li>
+            <li>Informações Cadastrais;</li>
+            <li>Pagamentos.</li>
+        </ul>
+    </div>
+        <div id="nav">
+            <nav id="icons">
+                <a href="index.html"><img src="icons/home.png"></a>
+                <div class="dropup">
+                    <button class="dropbtn"><img src="icons/menu.png"><span></span><span></span><span></span></button>
+                    <div id="sombra">
+                    <div class="dropup-content">
+                    <a href="especialidades.html" style="margin-top: 2em;">ESPECIALIDADES</a>
+                        <a href="about.html">SOBRE NÓS</a>
+                        <a href="agenda.html">AGENDAMENTO</a>
+                        <a href="area.html">ÁREA DO CLIENTE</a>
+                    </div>
+                    </div>
+                </div> 
+                <a href="agenda.html"><img src="icons/calendar.png"></a>
+                <a href="area.html"><img src="icons/user.png"></a>
+            </nav>
+        </div>   
+</body>
+</html>
